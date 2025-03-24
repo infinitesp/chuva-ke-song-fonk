@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="wraper">
+        <div class="container">
+            <div class="songPng"><img id="playImage" src="cover/1.jpg" alt="Song Cover"></div>
+            <div id="songName">fonk song 1</div>
+            <input type="range" min="0" value="0" max="100" class="songRange">
+            <div class="control">
+                <i id="backward" class="fa-solid fa-backward controlar"></i>
+                <i id="player" class="fa-solid fa-play controlar"></i>
+                <i id="forwerd" class="fa-solid fa-forward controlar"></i>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
